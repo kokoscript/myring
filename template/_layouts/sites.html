@@ -1,0 +1,23 @@
+---
+---
+<html>
+	<head>
+		<title>{{ site.name }} :: {{ page.title }}</title>
+		<link rel="stylesheet" type="text/css" href="/style/siteview.css">
+		<link rel="stylesheet" type="text/css" href="/style/siteview-override.css">
+	</head>
+	<body>
+		<div id="nav">
+			<a href="/index.html"><img id="navIcon" src="/img/navIcon.gif"/></a>
+			{% assign sorted = site.sites | sort: 'id'%}
+			<a href="{% if sorted.first.order == page.order %}/index.html{% else %}{{ page.previous.url }}{% endif %}"><img id="navBack" src="/img/navBack.gif"/></a>
+			<select name="ringNav" id="ringNav" onchange="location = this.value;">
+				{% for entry in sorted %}
+			    	<option value="{{ entry.url }}" {% if page.order == entry.order %}selected disabled{% endif %}>{{ entry.title }}</option>
+			    {% endfor %}
+			</select>
+			<a href="{% if sorted.last.order == page.order %}/index.html{% else %}{{ page.next.url }}{% endif %}"><img id="navFwd" src="/img/navFwd.gif"/></a>
+		</div>
+		<iframe id="siteBody" frameborder="0" height="100%" width="100%" title="{{ page.title }}" src="{{ page.ref }}"></iframe>
+	</body>
+</html>

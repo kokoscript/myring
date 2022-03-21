@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="240"
+   height="120"
+   viewBox="0 0 63.5 31.75"
+   version="1.1"
+   id="svg5"
+   sodipodi:docname="logo.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   inkscape:export-filename="/home/kokoro/bitmap.png"
+   inkscape:export-xdpi="300.01001"
+   inkscape:export-ydpi="300.01001"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="3.2252323"
+     inkscape:cx="139.67986"
+     inkscape:cy="101.6981"
+     inkscape:window-width="1920"
+     inkscape:window-height="1020"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     units="px" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g23837"
+       transform="matrix(0.27080517,0,0,0.27080517,-0.37370927,-0.63318047)"
+       style="stroke-width:3.69269">
+      <path
+         id="path23950"
+         style="color:#000000;fill:#000000;stroke-width:13.9566;stroke-linecap:round;stroke-linejoin:round;-inkscape-stroke:none;paint-order:stroke markers fill"
+         d="m 447.0625,132.36914 c -2.00976,0 -3.95484,0.0722 -5.95312,0.0859 l -6,12.33789 c 1.99816,-0.0141 9.94332,-0.0879 11.95312,-0.0879 67.35708,0 128.34552,7.94226 171.99805,20.5664 21.82624,6.31208 39.31587,13.84518 50.88281,21.75391 4.48112,3.06391 7.97381,6.09951 10.58398,9.07227 4.31783,-0.90869 9.11809,-1.15842 14.94922,0 -3.71107,-7.13097 -10.23347,-13.56357 -18.56445,-19.25977 -13.296,-9.09097 -31.78909,-16.87127 -54.41992,-23.41601 -45.2617,-13.08952 -107.10827,-21.05274 -175.42969,-21.05274 z m -251.5332,80.74024 c 1.45116,11.20017 9.64795,20.98614 21.6914,29.2207 13.296,9.09096 31.78712,16.87126 54.41797,23.41601 30.54618,8.83385 68.66284,15.31905 111.20703,18.61133 l 2.86643,-12.39062 c -41.49998,-3.27478 -81.40794,-9.61234 -110.64768,-18.06836 -21.82625,-6.31207 -39.31003,-13.84713 -50.87695,-21.75586 -9.64317,-6.59339 -14.70497,-13.05169 -16.14062,-19.0332 z"
+         transform="matrix(0.26458333,0,0,0.26458333,-1.3770458,0.95962079)"
+         sodipodi:nodetypes="sccsssccsssscssccsscc" />
+      <text
+         xml:space="preserve"
+         style="font-size:50.8px;line-height:1.25;font-family:Geneva;-inkscape-font-specification:Geneva;text-align:center;letter-spacing:-0.0529167px;word-spacing:-0.595312px;text-anchor:middle;fill:#cc3300;fill-opacity:1;stroke-width:0.978562;stroke-miterlimit:4;stroke-dasharray:none"
+         x="75.604126"
+         y="55.825272"
+         id="text1970"><tspan
+           sodipodi:role="line"
+           id="tspan1968"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:50.8px;font-family:Arial;-inkscape-font-specification:'Arial Bold Italic';fill:#cc3300;fill-opacity:1;stroke-width:0.978562;stroke-miterlimit:4;stroke-dasharray:none"
+           x="75.577667"
+           y="55.825272">my</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:50.8px;line-height:1.25;font-family:Geneva;-inkscape-font-specification:Geneva;text-align:center;letter-spacing:-0.0529167px;word-spacing:-0.595312px;text-anchor:middle;fill:#cc3300;fill-opacity:1;stroke-width:0.978562;stroke-miterlimit:4;stroke-dasharray:none"
+         x="148.02731"
+         y="82.365845"
+         id="text1970-3"><tspan
+           sodipodi:role="line"
+           id="tspan1968-6"
+           style="font-style:italic;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:50.8px;font-family:Arial;-inkscape-font-specification:'Arial Bold Italic';fill:#000000;fill-opacity:1;stroke-width:0.978562;stroke-miterlimit:4;stroke-dasharray:none"
+           x="148.00085"
+           y="82.365845">ring</tspan></text>
+    </g>
+  </g>
+</svg>

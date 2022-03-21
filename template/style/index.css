@@ -1,0 +1,11 @@
+body {
+	background-image: url("/img/indexBg.gif");
+	text-align: center;
+	font-family: "Helvetica", "Arial", sans-serif;
+}
+#startRingButton {
+	font-size: 32px;
+}
+#endRingButton {
+	font-size: 24px;
+}

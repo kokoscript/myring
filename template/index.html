@@ -1,0 +1,32 @@
+---
+---
+<html>
+	<head>
+		<title>{{ site.name }}</title>
+		<link rel="stylesheet" type="text/css" href="/style/index.css">
+		<link rel="stylesheet" type="text/css" href="/style/index-override.css">
+	</head>
+	<body>
+		<img id="logo" src="/img/indexLogo.png"/>
+		<p>Welcome to the {{ site.name }} webring!</p>
+		{% assign sorted = site.sites | sort: 'id'%}
+		<a id="startRingLink" href="{{ sorted.first.url }}"><button id="startRingButton">
+			Jump to the first site!
+		</button></a>
+		<br><br>
+		<a id="endRingLink" href="{{ sorted.last.url }}"><button id="endRingButton">
+			Jump to the last site!
+		</button></a>
+		<p id="orSelect">Or, select a site:</p>
+		<select name="ringNav" id="ringNav" onchange="location = this.value;">
+			<option value="" selected disabled>-- Select --</option>
+			{% for entry in sorted %}
+		    	<option value="{{ entry.url }}">{{ entry.title }}</option>
+		    {% endfor %}
+		</select>
+		<!-- you can put some content here if you'd like...-->
+
+		<!-- if you'd like to say "thanks" to myring, keep this here! -->
+		<p id="myringCredit">Made with <a href="https://github.com/kokoscript/myring" target="_blank" rel="noopener noreferrer">myring</a></p>
+	</body>
+</html>

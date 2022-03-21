@@ -1,0 +1,10 @@
+permalink: /:year/:title:output_ext
+collections:
+  sites:
+    output: true
+    sort_by: name
+name: "Example Ring"
+description: Please edit _config.yml.
+
+kramdown:
+    smart_quotes: ["apos", "apos", "quot", "quot"]

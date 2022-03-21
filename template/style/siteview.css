@@ -1,0 +1,26 @@
+html, body {
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+#siteBody {
+	height: calc(100% - 24px);
+}
+#nav {
+	background-image: url("/img/navBg.gif");
+	height: 24px;
+}
+#nav * {
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+#navIcon {
+	margin-right: 6px;
+}
+#ringNav {
+	margin-left: 6px;
+	margin-right: 6px;
+	position: relative;
+	top: -7px;
+}

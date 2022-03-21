@@ -1,5 +1,5 @@
 # myring
-myring is an easy-to-use webring template built using Jekyll. Use it to generate static webrings, perfect for hosting on services such as Neocities, DigitalOcean, AWS... really, anywhere you can host a static site!
+myring is an easy-to-use [webring](https://en.wikipedia.org/wiki/Webring) template built using Jekyll. Use it to generate static webrings, perfect for hosting on services such as Neocities, DigitalOcean, AWS... really, anywhere you can host a static site!
 
 ## Requirements
 - Jekyll - install using the [quickstart guide](https://jekyllrb.com/docs/)
